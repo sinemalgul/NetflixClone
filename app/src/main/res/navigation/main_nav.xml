@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.netflixclone.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/home_to_movies"
+            app:destination="@id/moviesFragment" />
+        <action
+            android:id="@+id/home_to_series"
+            app:destination="@id/seriesFragment" />
+        <action
+            android:id="@+id/home_to_search"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/comingSoonFragment"
+        android:name="com.example.netflixclone.ui.comingsoon.ComingSoonFragment"
+        android:label="fragment_coming_soon"
+        tools:layout="@layout/fragment_coming_soon" >
+        <action
+            android:id="@+id/comingsoon_to_movies"
+            app:destination="@id/moviesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/downloadsFragment"
+        android:name="com.example.netflixclone.ui.downloads.DownloadsFragment"
+        android:label="fragment_downloads"
+        tools:layout="@layout/fragment_downloads" >
+        <action
+            android:id="@+id/downloads_to_home"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/moviesFragment"
+        android:name="com.example.netflixclone.ui.moviesdetail.MoviesDetailFragment"
+        android:label="fragment_movies"
+        tools:layout="@layout/fragment_movies" >
+        <argument
+            android:name="idMovies"
+            app:argType="integer" />
+        <action
+            android:id="@+id/movies_to_movies"
+            app:destination="@id/moviesFragment" />
+        <action
+            android:id="@+id/movies_to_download"
+            app:destination="@id/downloadsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seriesFragment"
+        android:name="com.example.netflixclone.ui.seriesdetail.SeriesDetailFragment"
+        android:label="fragment_series"
+        tools:layout="@layout/fragment_series" >
+        <argument
+            android:name="idSeries"
+            app:argType="integer" />
+        <action
+            android:id="@+id/series_to_download"
+            app:destination="@id/downloadsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.netflixclone.ui.search.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/search_to_movies"
+            app:destination="@id/moviesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.netflixclone.ui.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/splash_to_home"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>

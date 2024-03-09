@@ -20,8 +20,8 @@ NETFLIX CLONE
 
 </br>
 
-| Home |
-| ------ |
+| Home | |
+| ------ |---- |
 |<img src="https://github.com/sinemalgul/NetflixClone/assets/61560825/67cc1986-9c42-44b1-91a0-fd8c65b07d8a" width="250" height="500"/>|<img src="https://github.com/sinemalgul/NetflixClone/assets/61560825/18debe80-4c7e-431a-88a2-de8ba341ee76" width="250" height="500"/>|
 
 </br>
@@ -32,8 +32,8 @@ NETFLIX CLONE
 
 </br>
   
-| Search |
-| --- |
+| Search | |
+| --- |---- |
 |<img src="https://github.com/sinemalgul/NetflixClone/assets/61560825/e7a80cb4-2d62-4ea1-b6d1-12fcf3561715" width="250" height="500"/>|<img src="https://github.com/sinemalgul/NetflixClone/assets/61560825/f2d2b748-f825-4444-884c-e2ce7828851e" width="250" height="500"/>|
 
 </br>
@@ -44,6 +44,6 @@ NETFLIX CLONE
 
 </br>
 
-| Download |
-| --------- |
+| Download | |
+| --------- |---- |
 |<img src="https://github.com/sinemalgul/NetflixClone/assets/61560825/993051fd-4d93-4851-81cc-e1fc7e7a7c0c" width="250" height="500"/>|<img src="https://github.com/sinemalgul/NetflixClone/assets/61560825/2b8245c4-4507-40c5-af41-4ae4d18ce053" width="250" height="500"/>|

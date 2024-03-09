@@ -46,4 +46,4 @@ NETFLIX CLONE
 
 | Download | |
 | --------- |---- |
-|<img src="https://github.com/sinemalgul/NetflixClone/assets/61560825/993051fd-4d93-4851-81cc-e1fc7e7a7c0c" width="250" height="500"/>|<img src="https://github.com/sinemalgul/NetflixClone/assets/61560825/2b8245c4-4507-40c5-af41-4ae4d18ce053" width="250" height="500"/>|
+|<img src="https://github.com/sinemalgul/NetflixClone/assets/61560825/993051fd-4d93-4851-81cc-e1fc7e7a7c0c" width="250" height="500"/>|<img src="https://github.com/sinemalgul/NetflixClone/assets/61560825/19a05315-72fb-40a1-99bd-c10792e3e267" width="250" height="500"/>|

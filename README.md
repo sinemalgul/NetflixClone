@@ -7,6 +7,7 @@ NETFLIX CLONE
  - Navigation Components
  - Retrofit
  - Dagger Hilt with Dependency Injection
+ - Coroutines
  - Room Database
  - Picasso
  - LiveData

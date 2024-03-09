@@ -41,7 +41,7 @@ NETFLIX CLONE
 
 | Coming Soon |
 | --- |
-|<img src="https://github.com/sinemalgul/NetflixClone/assets/61560825/20b1c1e1-be31-4463-8759-a8554a73c940" width="250" height="500"/>|
+|<img src="https://github.com/sinemalgul/FoodApp/assets/61560825/08dd389f-2d12-470e-ab40-c1530d63cba4" width="250" height="500"/>|
 
 </br>
 
